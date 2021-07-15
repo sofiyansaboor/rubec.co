@@ -6,7 +6,7 @@ $("#myIframe").ready( function() {
 
 
 var typed = new Typed(".typing", {
-    strings: ["Sofiyan","Inovative","Futuristic","Crypto Lover","RUBEC.CO"],
+    strings: ["Futuristic","Inovative","Sofiyan","Crypto Lover","RUBEC.CO"],
             typeSpeed: 100,
             backSpeed: 60,
             loop:true
