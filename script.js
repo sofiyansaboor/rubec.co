@@ -1,4 +1,4 @@
-/*! Copyright (c) 2020 by Craig Roblewsky (https://codepen.io/PointC/pen/KRWgOK)*/
+
 const svg = document.querySelector("#main-svg_bg");
 const tl2 = new gsap.timeline({onUpdate:onUpdate});
 let pt = svg.createSVGPoint();
