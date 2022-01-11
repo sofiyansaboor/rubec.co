@@ -606,6 +606,100 @@ body {
       <iframe src="https://techcraze.co.in"  id="frame_1"></iframe>
     </div>
   </div>
+      
+  <link rel="stylesheet" href="">
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+.main-svg {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.main-svg_container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.main-svg_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.main-svg_text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.5em;
+	line-height: 1;
+	text-transform: uppercase;
+}
+	@media screen and (min-width: 1200px) {
+		.main-svg_text {
+			font-size: 6em;
+		}
+	}
+	@media screen and (min-width: 1366px) {
+		.main-svg_text {
+			font-size: 7em;
+			line-height: 1.2;
+		}
+	}
+.circle {
+	width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid #D74A53;
+  border-radius: 50%;
+  z-index: 250;
+  pointer-events: none;
+}
+	@media screen and (max-width: 1024px) {
+		.circle {
+			display: none;
+		}
+	}</style>
+
+<body>
+<!-- partial:index.partial.html -->
+<div class="main-svg">
+          <div class="main-svg_container">
+              <svg id="main-svg_bg" class="main-svg_image" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="1600" height="900" viewBox="0 0 1600 900">
+                <defs>
+                  <radialGradient id="mask-gradient">
+                    <stop offset="80%" stop-color="#fff" />
+                    <stop offset="100%" stop-color="#000" />
+                  </radialGradient>
+                    <mask id="the-mask">
+                      <circle id="masker" r="240" fill="url(#mask-gradient)" cx="800" cy="450">
+                      </circle>
+                    </mask>
+                    <mask id="mask-text" width="100" height="100" x="0" y="0">
+                      <text class="main-svg_text" id="row-1" fill="none" stroke="#fff" stroke-width="3" x="10.1%" y="40%">A</text>
+                      <text class="main-svg_text" id="row-2" fill="white" x="10%" y="53%">Sofiyan</text>
+                      <text class="main-svg_text" id="row-3" fill="white" x="10%" y="66%">Saboor Production</text>
+                    </mask>
+                </defs>
+
+                  <image id="main-overlay-mask" xlink:href="https://techcraze.co.in/wp-content/uploads/2022/01/Untitled-design.png" x="0" y="0" width="1600" height="900" />
+                  <g mask="url(#mask-text)">
+                    <image id="main-overlay-mask" xlink:href="https://i.imgur.com/DlIJieO.jpg" x="0" y="0" width="1600" height="900" />
+                  </g>
+                  <g id="mask-reveal" mask="url(#the-mask)">
+                    <image id="main-background-mark" xlink:href="https://techcraze.co.in/wp-content/uploads/2022/01/Untitled-design-1.png" x="0" y="0" width="1600" height="900" />
+                  </g>
+                      <circle id="ring" r="24" fill="none" stroke="#D74A53" stroke-width="0" cx="1000" cy="550" />
+              </svg>
+          </div>
+      </div>
+<div class="circle"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="C:\Users\sofiyan\AppData\Local\Temp\Rar$EXa10500.11530\full-screen-svg-image-mask-w-gsap\dist\script.js"></script>
 
   </div> </div>
   
