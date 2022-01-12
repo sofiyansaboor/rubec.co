@@ -700,6 +700,26 @@ body {
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="https://techcraze.co.in/script.js"></script>
 
   </div> </div>
+	    <script>.element,
+.outer-container {
+  width: 200px;
+  height: 200px;
+}
+.outer-container {
+  border: 5px solid purple;
+  position: relative;
+  overflow: hidden;
+}
+.inner-container {
+  position: absolute;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-right: 150px;
+}
+.inner-container::-webkit-scrollbar {
+  display: none;
+}</script>
   
 <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
   <script  src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-55a842b0-d8a2-7c27-f953-76058828dd3e" crossorigin></script>
