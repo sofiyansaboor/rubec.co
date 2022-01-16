@@ -32,7 +32,11 @@ function newSize() {
 
     if(oldWidth !== w){
      oldWidth = w;
-
+$(".option").click(function(){
+   $(".option").removeClass("active");
+   $(this).addClass("active");
+   
+});
       var h = window.innerHeight;
       if (w > h * (16/9) ) {
         gsap.set("#main-svg_bg", {attr: {width: w, height: w * ratio} });
