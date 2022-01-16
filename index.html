@@ -1,730 +1,241 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rubec.Ltd</title>
-        <link rel="stylesheet" href="https://sofiyansaboor.github.io/rubec.co/indexStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-        <link rel="icon" href="https://techcraze.co.in/wp-content/uploads/2020/08/Tech-blog.png" type="image/gif" sizes="16x16">
-    </head>
-    <body onload="myFunction()">
-        <div id="loading"></div>
-    <section>
-        <header>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rubec.Ltd</title>
+      <link rel="stylesheet" href="https://sofiyansaboor.github.io/rubec.co/indexStyle.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+      <link rel="icon" href="https://techcraze.co.in/wp-content/uploads/2020/08/Tech-blog.png" type="image/gif" sizes="16x16">
+   </head>
+   <body onload="myFunction()">
+      <div id="loading"></div>
+      <section>
+         <header>
             <a href="#" class="logo">
-                <img src="https://techcraze.co.in/wp-content/uploads/2021/03/rubec.ltd_.png" 
-                alt="Rubec.LTD">
+            <img src="https://techcraze.co.in/wp-content/uploads/2021/03/rubec.ltd_.png" 
+               alt="Rubec.LTD">
             </a>
             <div class="toggle" onclick="menuToggle();"></div>
-        </header>
-        <div class="glass"></div>
-        
-        <div class="content">
-            <br><br><br><br><br><br><br><br><br><br><br><br><h2><span class="typing"></span><br><span class="sam" data-text="Samuel Miller">RUBEC.LTD</span></h2>
-        </div>
-        <video src="https://techcraze.co.in/wp-content/uploads/2021/04/VideoBg-1.mp4" autoplay muted loop></video>
-        <br>
-    </section>
-        <section>
-        <br>
-               <meta charset="UTF-8">
-  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  
-  
-<style>
-@import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
-.timeline {
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  flex-direction: column;
-  max-width: 700px;
-  position: relative;
-}
-.timeline__content-title {
-  font-weight: normal;
-  font-size: 66px;
-  margin: -10px 0 0 0;
-  transition: 0.4s;
-  padding: 0 10px;
-  box-sizing: border-box;
-  font-family: "Pathway Gothic One", sans-serif;
-  color: #fff;
-}
-.timeline__content-desc {
-  margin: 0;
-  font-size: 15px;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Cardo;
-  font-weight: normal;
-  line-height: 25px;
-}
-.timeline:before {
-  position: absolute;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  margin-left: -1px;
-  content: "";
-  background: rgba(255, 255, 255, 0.07);
-}
-@media only screen and (max-width: 767px) {
-  .timeline:before {
-    left: 40px;
-  }
-}
-.timeline-item {
-  padding: 40px 0;
-  opacity: 0.3;
-  filter: blur(2px);
-  transition: 0.5s;
-  box-sizing: border-box;
-  width: calc(50% - 40px);
-  display: flex;
-  position: relative;
-  transform: translateY(-80px);
-}
-.timeline-item:before {
-  content: attr(data-text);
-  letter-spacing: 3px;
-  width: 100%;
-  position: absolute;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
-  font-family: "Pathway Gothic One", sans-serif;
-  border-left: 2px solid rgba(255, 255, 255, 0.5);
-  top: 70%;
-  margin-top: -5px;
-  padding-left: 15px;
-  opacity: 0;
-  right: calc(-100% - 56px);
-}
-.timeline-item:nth-child(even) {
-  align-self: flex-end;
-}
-.timeline-item:nth-child(even):before {
-  right: auto;
-  text-align: right;
-  left: calc(-100% - 56px);
-  padding-left: 0;
-  border-left: none;
-  border-right: 2px solid rgba(255, 255, 255, 0.5);
-  padding-right: 15px;
-}
-.timeline-item--active {
-  opacity: 1;
-  transform: translateY(0);
-  filter: blur(0px);
-}
-.timeline-item--active:before {
-  top: 50%;
-  transition: 0.3s all 0.2s;
-  opacity: 1;
-}
-.timeline-item--active .timeline__content-title {
-  margin: -50px 0 20px 0;
-}
-@media only screen and (max-width: 767px) {
-  .timeline-item {
-    align-self: baseline !important;
-    width: 100%;
-    padding: 0 30px 150px 80px;
-  }
-  .timeline-item:before {
-    left: 10px !important;
-    padding: 0 !important;
-    top: 50px;
-    text-align: center !important;
-    width: 60px;
-    border: none !important;
-  }
-  .timeline-item:last-child {
-    padding-bottom: 40px;
-  }
-}
-.timeline__img {
-  max-width: 100%;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
-}
-.timeline-container {
-  width: 100%;
-  position: relative;
-  padding: 80px 0;
-  transition: 0.3s ease 0s;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.timeline-container:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(99, 99, 99, 0.8);
-  content: "";
-}
-.timeline-header {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-}
-.timeline-header__title {
-  color: #fff;
-  font-size: 46px;
-  font-family: Cardo;
-  font-weight: normal;
-  margin: 0;
-}
-.timeline-header__subtitle {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: "Pathway Gothic One", sans-serif;
-  font-size: 16px;
-  letter-spacing: 5px;
-  margin: 10px 0 0 0;
-  font-weight: normal;
-}
-
-.demo-footer {
-  padding: 60px 0;
-  text-align: center;
-}
-.demo-footer a {
-  color: #999;
-  display: inline-block;
-  font-family: Cardo;
-}
-</style>
-
-  <script>
-  window.console = window.console || function(t) {};
-</script>
-
-  
-  
-  <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <div class="timeline-container" id="timeline-1">
-  <div class="timeline-header">
-    <h2 class="timeline-header__title">Rubec.LTD</h2>
-    <h3 class="timeline-header__subtitle">Beyond Everything.</h3>
-  </div>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO_.png"/>
-        <h2 class="timeline__content-title">2017</h2>
-        <p class="timeline__content-desc">Formation of Rubec.ltd by hassan abdul rahman and sofiyan-ul-ahsan. purpose was simple to publish a book to present our own thoughts to a very small audience.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-1.png"/>
-        <h2 class="timeline__content-title">2018</h2>
-        <p class="timeline__content-desc">New narritive and motive was set in the online world in which we  started selling website on order for very small business.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/01.0.jpg"/>
-        <h2 class="timeline__content-title">May 2019</h2>
-        <p class="timeline__content-desc">This idea was a booming success we sold over 5 websites which was a good funding for a small cause.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-2.png"/>
-        <h2 class="timeline__content-title">August 2019</h2>
-        <p class="timeline__content-desc">A small step to get to the e-commerce industry of selling online products on shoprubec.com</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/0-sales.png"/>
-        <h2 class="timeline__content-title">SEPT 2019</h2>
-        <p class="timeline__content-desc">shoprubec.com wasn't a big success because of problems in marketing and lack of funds.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/180401-musk-bankwupt-630x625-1.jpg"/>
-        <h2 class="timeline__content-title">OCT 2019</h2>
-        <p class="timeline__content-desc">Bankruptcy of RUBEC this was a big turn we owe a lot to the lender's and our sales on ecommerce were null, no signed up for funding, no one came to build own website's with us.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-3.png"/>
-        <h2 class="timeline__content-title">The saviour Nov 2019</h2>
-        <p class="timeline__content-desc">While we were facing issues with our company by the Grace of God almighty. our E-Book got online when we published it on google play books. many people purchased and indirectly helped us. we were astonished by the power of technology.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/istockphoto-543045702-612x612-1.jpg"/>
-        <h2 class="timeline__content-title">2020 The Profitable year</h2>
-        <p class="timeline__content-desc">
-          Many of the small business owner, institutions, Diagnostics centre's signed up with us for making their custom websites.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-4.png"/>
-        <h2 class="timeline__content-title">2021 The Crypto Year</h2>
-        <p class="timeline__content-desc">we will be launching our own crypto token soon and for 1st time in history a registered company will sells it shares through their own crypto tokens. which means this website has its own crypto token.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline__content"><img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-5.png"/>
-        <h2 class="timeline__content-title">2021 November</h2>
-        <p class="timeline__content-desc">Launching a Gaming zone for all age groups with attached office for website consultancy. and also starting an Trust on the name the earliest investor Khairunissa for the fight against alzihmer and other mental diseases.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-      <script id="rendered-js" >
-(function ($) {
-  $.fn.timeline = function () {
-    var selectors = {
-      id: $(this),
-      item: $(this).find(".timeline-item"),
-      activeClass: "timeline-item--active",
-      img: ".timeline__img" };
-
-    selectors.item.eq(0).addClass(selectors.activeClass);
-    selectors.id.css(
-    "background-image",
-    "url(" +
-    selectors.item.
-    first().
-    find(selectors.img).
-    attr("src") +
-    ")");
-
-    var itemLength = selectors.item.length;
-    $(window).scroll(function () {
-      var max, min;
-      var pos = $(this).scrollTop();
-      selectors.item.each(function (i) {
-        min = $(this).offset().top;
-        max = $(this).height() + $(this).offset().top;
-        var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-          selectors.item.removeClass(selectors.activeClass);
-          selectors.id.css(
-          "background-image",
-          "url(" +
-          selectors.item.
-          last().
-          find(selectors.img).
-          attr("src") +
-          ")");
-
-          selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max - 40 && pos >= min) {
-          selectors.id.css(
-          "background-image",
-          "url(" +
-          $(this).
-          find(selectors.img).
-          attr("src") +
-          ")");
-
-          selectors.item.removeClass(selectors.activeClass);
-          $(this).addClass(selectors.activeClass);
-        }
-      });
-    });
-  };
-})(jQuery);
-
-$("#timeline-1").timeline();
-//# sourceURL=pen.js
-    </script>
-        </section>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-            <script src="https://sofiyansaboor.github.io/rubec.co/index.js"></script>
-            <script src="https://sofiyansaboor.github.io/rubec.co/main.js"></script>
-            <script src="https://sofiyansaboor.github.io/rubec.co/vendor.js"></script>
-        <script>
-            var preloader = document.getElementById('loading');
-            function myFunction(){
-                preloader.style.display = "none";
+         </header>
+         <div class="glass"></div>
+         <div class="content">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2><span class="typing"></span><br><span class="sam" data-text="Samuel Miller">RUBEC.LTD</span></h2>
+         </div>
+         <video src="https://techcraze.co.in/wp-content/uploads/2021/04/VideoBg-1.mp4" autoplay muted loop></video>
+         <br>
+      </section>
+      <section>
+         <br>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+         
+         <script>
+            window.console = window.console || function(t) {};
+         </script>
+         <script>
+            if (document.location.search.match(/type=embed/gi)) {
+              window.parent.postMessage("resize", "*");
             }
-            </script>
-<br>
-
-<style>
-body {
-  font-family: "Open Sans", sans-serif;
-  height: 100%;
-  color: #fff;
-  background: #1b1b1b !important;
-}
-
-#container {
-  background: #1b1b1b !important;
-}
-
-/*Basic Phone styling*/
-
-.phone {
-  border: 40px solid #121212;
-  border-width: 55px 7px;
-  border-radius: 40px;
-  margin: 50px auto;
-  overflow: hidden;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-.phone iframe {
-  border: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-}
-
-/*Different Perspectives*/
-
-/* Table View */
-.phone.view_1 {
-  -webkit-transform: rotateX(50deg) rotateY(0deg) rotateZ(-30deg);
-  transform: rotateX(50deg) rotateY(0deg) rotateZ(-30deg);
-  box-shadow: -3px 3px 0 #000, -6px 6px 0 #000, -9px 9px 0 #000,
-    -12px 12px 0 #000, -14px 10px 20px #000;
-}
-/*  Front View */
-.phone.view_2 {
-  -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  box-shadow: 0px 3px 0 #000, 0px 4px 0 #000, 0px 5px 0 #000, 0px 7px 0 #000,
-    0px 10px 20px #000;top: 80px;
-  left: 20px;
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotateX(50deg) rotateY(0deg) rotateZ(-30deg);
-  }
-  50% {
-    -webkit-transform: rotateX(50deg) rotateY(0deg) rotateZ(-40deg);
-  }
-  100% {
-    -webkit-transform: rotateX(50deg) rotateY(0deg) rotateZ(-30deg);
-  }
-}
-
-/* Rotate Animation */
-
-.view_1.rotate {
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 15s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-}
-
-/*Controls*/
-
-#controls {
-  position: absolute;
-  top: 80px;
-  left: 20px;
-  font-size: 0.9em;
-  color: #333;
-  width: 17px;
-}
-
-#controls div {
-  margin: 10px;
-}
-
-#controls div label {
-  width: 150px;
-  display: block;
-  float: left;
-  color: #fff;
-}
-
-#phone-controls {
-  position: absolute;
-  top: 80px;
-  right: 20px;
-  width: 200px;
-  font-size: 14px;
-}
-
-#phones {
-  border-top: 1px solid #fff;
-  margin-top: 20px;
-  padding-top: 20px;
-}
-
-#phones button {
-  outline: none;
-  width: 198px;
-  border: 1px solid #016aa0;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  background-color: #016aa0;
-  height: 40px;
-  margin: 10px 0;
-  color: #fff;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-#phones button:hover {
-  color: #444;
-  background-color: #eee;
-}
-
-#views button {
-  outline: none;
-  width: 198px;
-  border: 1px solid #00a8ff;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  background-color: #00a8ff;
-  height: 40px;
-  margin: 10px 0;
-  color: #fff;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-#views button:hover {
-  color: #444;
-  background-color: #eee;
-}
-
-@media (max-width: 900px) {
-  #wrapper {
-    -webkit-transform: scale(0.8, 0.8);
-    transform: scale(0.8, 0.8);
-  }
-}
-
-@media (max-width: 700px) {
-  #wrapper {
-    -webkit-transform: scale(0.6, 0.6);
-    transform: scale(0.6, 0.6);
-  }
-  .phone {
-    margin: 0 0 0 -70px;
-  }
-}
-
-@media (max-width: 500px) {
-  #wrapper {
-    -webkit-transform: scale(0.4, 0.4);
-    transform: scale(0.4, 0.4);
-  }
-}
-
-/* Fade In Animation */
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-  </style>
-
-  
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-d8236034cc3508e70b0763f2575a8bb5850f9aea541206ce56704c013047d712.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
-
-
-  <div id="inner_wrap">
-
-  <!--The Main Thing-->
-  
-      
-  <link rel="stylesheet" href="">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
-.main-svg {
-	position: relative;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-}
-.main-svg_container {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-}
-.main-svg_image {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-.main-svg_text {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 4.5em;
-	line-height: 1;
-	text-transform: uppercase;
-}
-	@media screen and (min-width: 1200px) {
-		.main-svg_text {
-			font-size: 6em;
-		}
-	}
-	@media screen and (min-width: 1366px) {
-		.main-svg_text {
-			font-size: 7em;
-			line-height: 1.2;
-		}
-	}
-.circle {
-	width: 60px;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  border: 2px solid #D74A53;
-  border-radius: 50%;
-  z-index: 250;
-  pointer-events: none;
-}
-	@media screen and (max-width: 1024px) {
-		.circle {
-			display: none;
-		}
-	}</style>
-
-<body>
-<!-- partial:index.partial.html -->
-<div class="main-svg"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <div class="main-svg_container">
-              <svg id="main-svg_bg" class="main-svg_image" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="1600" height="900" viewBox="0 0 1600 900">
-                <defs>
-                  <radialGradient id="mask-gradient">
-                    <stop offset="80%" stop-color="#fff" />
-                    <stop offset="100%" stop-color="#000" />
-                  </radialGradient>
-                    <mask id="the-mask">
-                      <circle id="masker" r="240" fill="url(#mask-gradient)" cx="800" cy="450">
-                      </circle>
-                    </mask>
-                    <mask id="mask-text" width="100" height="100" x="0" y="0">
-                      <text class="main-svg_text" id="row-1" fill="none" stroke="#fff" stroke-width="3" x="10.1%" y="40%"></text>
-                      <text class="main-svg_text" id="row-2" fill="white" x="10%" y="53%">Sofiyan</text>
-                      <text class="main-svg_text" id="row-3" fill="white" x="10%" y="66%">Saboor</text>
-                    </mask>
-                </defs>
-
-                  <image id="main-overlay-mask" xlink:href="https://techcraze.co.in/wp-content/uploads/2022/01/Untitled-design.png" x="0" y="0" width="1600" height="900" />
-                  <g mask="url(#mask-text)">
-                    <image id="main-overlay-mask" xlink:href="https://i.imgur.com/DlIJieO.jpg" x="0" y="0" width="1600" height="900" />
-                  </g>
-                  <g id="mask-reveal" mask="url(#the-mask)">
-                    <image id="main-background-mark" xlink:href="https://techcraze.co.in/wp-content/uploads/2022/01/Untitled-design-1.png" x="0" y="0" width="1600" height="900" />
-                  </g>
-                      <circle id="ring" r="24" fill="none" stroke="#D74A53" stroke-width="0" cx="1000" cy="550" />
-              </svg>
-          </div>
+         </script>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <div class="timeline-container" id="timeline-1">
+            <div class="timeline-header">
+               <h2 class="timeline-header__title">Rubec.LTD</h2>
+               <h3 class="timeline-header__subtitle">Beyond Everything.</h3>
+            </div>
+            <div class="timeline">
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO_.png"/>
+                     <h2 class="timeline__content-title">2017</h2>
+                     <p class="timeline__content-desc">Formation of Rubec.ltd by hassan abdul rahman and sofiyan-ul-ahsan. purpose was simple to publish a book to present our own thoughts to a very small audience.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-1.png"/>
+                     <h2 class="timeline__content-title">2018</h2>
+                     <p class="timeline__content-desc">New narritive and motive was set in the online world in which we  started selling website on order for very small business.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/01.0.jpg"/>
+                     <h2 class="timeline__content-title">May 2019</h2>
+                     <p class="timeline__content-desc">This idea was a booming success we sold over 5 websites which was a good funding for a small cause.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-2.png"/>
+                     <h2 class="timeline__content-title">August 2019</h2>
+                     <p class="timeline__content-desc">A small step to get to the e-commerce industry of selling online products on shoprubec.com</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/0-sales.png"/>
+                     <h2 class="timeline__content-title">SEPT 2019</h2>
+                     <p class="timeline__content-desc">shoprubec.com wasn't a big success because of problems in marketing and lack of funds.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/180401-musk-bankwupt-630x625-1.jpg"/>
+                     <h2 class="timeline__content-title">OCT 2019</h2>
+                     <p class="timeline__content-desc">Bankruptcy of RUBEC this was a big turn we owe a lot to the lender's and our sales on ecommerce were null, no signed up for funding, no one came to build own website's with us.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-3.png"/>
+                     <h2 class="timeline__content-title">The saviour Nov 2019</h2>
+                     <p class="timeline__content-desc">While we were facing issues with our company by the Grace of God almighty. our E-Book got online when we published it on google play books. many people purchased and indirectly helped us. we were astonished by the power of technology.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/istockphoto-543045702-612x612-1.jpg"/>
+                     <h2 class="timeline__content-title">2020 The Profitable year</h2>
+                     <p class="timeline__content-desc">
+                        Many of the small business owner, institutions, Diagnostics centre's signed up with us for making their custom websites.
+                     </p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-4.png"/>
+                     <h2 class="timeline__content-title">2021 The Crypto Year</h2>
+                     <p class="timeline__content-desc">we will be launching our own crypto token soon and for 1st time in history a registered company will sells it shares through their own crypto tokens. which means this website has its own crypto token.</p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline__content">
+                     <img class="timeline__img" src="https://techcraze.co.in/wp-content/uploads/2021/04/RUBEC.CO-5.png"/>
+                     <h2 class="timeline__content-title">2021 November</h2>
+                     <p class="timeline__content-desc">Launching a Gaming zone for all age groups with attached office for website consultancy. and also starting an Trust on the name the earliest investor Khairunissa for the fight against alzihmer and other mental diseases.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+         <script id="rendered-js" >
+            (function ($) {
+              $.fn.timeline = function () {
+                var selectors = {
+                  id: $(this),
+                  item: $(this).find(".timeline-item"),
+                  activeClass: "timeline-item--active",
+                  img: ".timeline__img" };
+            
+                selectors.item.eq(0).addClass(selectors.activeClass);
+                selectors.id.css(
+                "background-image",
+                "url(" +
+                selectors.item.
+                first().
+                find(selectors.img).
+                attr("src") +
+                ")");
+            
+                var itemLength = selectors.item.length;
+                $(window).scroll(function () {
+                  var max, min;
+                  var pos = $(this).scrollTop();
+                  selectors.item.each(function (i) {
+                    min = $(this).offset().top;
+                    max = $(this).height() + $(this).offset().top;
+                    var that = $(this);
+                    if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+                      selectors.item.removeClass(selectors.activeClass);
+                      selectors.id.css(
+                      "background-image",
+                      "url(" +
+                      selectors.item.
+                      last().
+                      find(selectors.img).
+                      attr("src") +
+                      ")");
+            
+                      selectors.item.last().addClass(selectors.activeClass);
+                    } else if (pos <= max - 40 && pos >= min) {
+                      selectors.id.css(
+                      "background-image",
+                      "url(" +
+                      $(this).
+                      find(selectors.img).
+                      attr("src") +
+                      ")");
+            
+                      selectors.item.removeClass(selectors.activeClass);
+                      $(this).addClass(selectors.activeClass);
+                    }
+                  });
+                });
+              };
+            })(jQuery);
+            
+            $("#timeline-1").timeline();
+                        
+         </script>
+      </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+      <script src="https://sofiyansaboor.github.io/rubec.co/index.js"></script>
+      <script src="https://sofiyansaboor.github.io/rubec.co/main.js"></script>
+      <script src="https://sofiyansaboor.github.io/rubec.co/vendor.js"></script>
+      <script>
+         var preloader = document.getElementById('loading');
+         function myFunction(){
+             preloader.style.display = "none";
+         }
+      </script>
+      <br>      
+      <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-d8236034cc3508e70b0763f2575a8bb5850f9aea541206ce56704c013047d712.js"></script>
+      <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
+      <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+      <div id="inner_wrap">
+         <!--The Main Thing-->
+         <link rel="stylesheet" href="">
+         <div class="main-svg">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <div class="main-svg_container">
+                  <svg id="main-svg_bg" class="main-svg_image" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="1600" height="900" viewBox="0 0 1600 900">
+                     <defs>
+                        <radialGradient id="mask-gradient">
+                           <stop offset="80%" stop-color="#fff" />
+                           <stop offset="100%" stop-color="#000" />
+                        </radialGradient>
+                        <mask id="the-mask">
+                           <circle id="masker" r="240" fill="url(#mask-gradient)" cx="800" cy="450">
+                           </circle>
+                        </mask>
+                        <mask id="mask-text" width="100" height="100" x="0" y="0">
+                           <text class="main-svg_text" id="row-1" fill="none" stroke="#fff" stroke-width="3" x="10.1%" y="40%"></text>
+                           <text class="main-svg_text" id="row-2" fill="white" x="10%" y="53%">Sofiyan</text>
+                           <text class="main-svg_text" id="row-3" fill="white" x="10%" y="66%">Saboor</text>
+                        </mask>
+                     </defs>
+                     <image id="main-overlay-mask" xlink:href="https://techcraze.co.in/wp-content/uploads/2022/01/Untitled-design.png" x="0" y="0" width="1600" height="900" />
+                     <g mask="url(#mask-text)">
+                        <image id="main-overlay-mask" xlink:href="https://i.imgur.com/DlIJieO.jpg" x="0" y="0" width="1600" height="900" />
+                     </g>
+                     <g id="mask-reveal" mask="url(#the-mask)">
+                        <image id="main-background-mark" xlink:href="https://techcraze.co.in/wp-content/uploads/2022/01/Untitled-design-1.png" x="0" y="0" width="1600" height="900" />
+                     </g>
+                     <circle id="ring" r="24" fill="none" stroke="#D74A53" stroke-width="0" cx="1000" cy="550" />
+                  </svg>
+               </div>
+            </div>
+            <div class="circle"></div>
+            <!-- partial -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="https://techcraze.co.in/script.js"></script>
       </div>
-	
-
-<div class="circle"></div>
-<!-- partial --><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="https://techcraze.co.in/script.js"></script>
-
-  </div> </div>
-	    <script>.element,
-.outer-container {
-  width: 200px;
-  height: 200px;
-}
-.outer-container {
-  border: 5px solid purple;
-  position: relative;
-  overflow: hidden;
-}
-.inner-container {
-  position: absolute;
-  left: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  padding-right: 150px;
-}
-.inner-container::-webkit-scrollbar {
-  display: none;
-}</script>
-	    <div class="outer-container">
-  <div class="inner-container">
-    <div class="element">
-  
-<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-  <script  src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-55a842b0-d8a2-7c27-f953-76058828dd3e" crossorigin></script>
-</body>
+      </div>
+        
+   
 </html>
